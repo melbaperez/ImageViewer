@@ -1,0 +1,2 @@
+# ImageViewer
+Muestra una ventana en la que se muestra una serie de imágenes cargadas desde una ruta, se permite navegar entre ellas, es decir avanzar o retroceder. Se tiene en cuenta si la carpeta está vacía. Asimismo, se ha implementado el patrón proxy sobre las imágenes, de forma que controlamos su acceso. De esta manera, no se crean todas las imágenes nada más abrir la ventana, sino que se ahorra el coste de crear la imagen hasta que no sea necesario. Proxy se comporta como una imagen normal, pero solo se carga cuando se necesita. 
